@@ -37,6 +37,12 @@ The client, a company operating in the digital payments sector, was facing a cri
 -  Hyperparameters were tuned with GridSearchCV.
 -  The main optimization goal was to improve recall for the fraud class.
 
+#### Demo video
+
+[![Watch the demo video](https://img.youtube.com/vi/aJGU9cfcoOk/hqdefault.jpg)](https://youtu.be/aJGU9cfcoOk)
+
+▶️ [Watch the complete demo on YouTube](https://youtu.be/aJGU9cfcoOk)
+
 ## 3.My latest university project:
 
 #### Objective of the project
