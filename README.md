@@ -1,6 +1,6 @@
 Welcome to my portfolio.
 
-On this page, I showcase the main projects I have worked on.
+On this page, I ordered the main projects I have worked on.
 The text presenting my personal portfolio has the following sections:
 For each project, you will find a brief description, the technologies used, a link to the repository, and, in some cases, a demo video.
 
