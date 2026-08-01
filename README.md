@@ -165,7 +165,7 @@ The goal of this project was to automatically classify over 150,000 Wikipedia ar
 - A Multinomial Naive Bayes classifier handled categorization.
 - Matplotlib and WordCloud were used for visualizations.
 
-## 7.FINANCIAL MARKET DATA
+## 7.Financial Market data analysis 
 
 ### 7.1 Enhancing Momentum Strategies with Return Skewness
 
@@ -183,7 +183,7 @@ When investing in the stock market, one common approach is to buy stocks that ha
 - Portfolios are price-weighted and rebalanced monthly.
 - Backtesting is performed with a custom cross-sectional engine.
 
-## 8. DATA MANAGEMENT
+## 8. Key Data Management projects
 
 ### 8.1 Evolution of tactical roles in serie a over the last 15 years
 
@@ -211,7 +211,7 @@ This project involved working with a relational banking database that stores cus
 - Data integration: Views were used to join clients, accounts, and transactions.
 - Feature engineering: Correlated subqueries and aggregation functions populated the final feature table.
 
-## 9. DATA VISULIZATION
+## 9. Key Data Visualization project
 
 ### 9.1 GAME, SET, DATA: Unlocking tennis insights
 
@@ -223,35 +223,3 @@ The aim of this project was to help tennis coaches and sports agents make better
 
 - Data preparation: Python and Pandas were used to merge and clean three source tables.
 - Data visualization: Tableau Public was used to create bar charts, multi-line charts, scatter plots, and a choropleth map.
--  Topic modeling: CRNTM with Gaussian and Gaussian Mixture decoders.
--  Additional model: Biterm Topic Model trained using Gibbs sampling.
--  Evaluation: Accuracy, F1 score, precision, recall, held-out perplexity, and NPMI coherence.
-
-### 6.2 Toxic Comment Detection and Classification
-
-#### Objective of the project
-
-This project tackles the challenge of automatically detecting toxic content in online comments through a multilabel classification approach, simultaneously identifying six categories of toxicity — toxic, severe toxic, obscene, threat, insult, and identity hate. The core of the work lies in a systematic model escalation driven by performance analysis: Logistic Regression and Naive Bayes baselines achieved decent precision but failed on recall for minority classes, motivating the shift to deep learning. A Weighted SimpleRNN dramatically improved recall but introduced excessive false positives; replacing it with a GRU addressed the vanishing gradient problem and pushed recall further. A Bidirectional GRU showed no gains, suggesting the preprocessed sequences didn't benefit from backward context, so the focus shifted to architecture design: a CNN-GRU hybrid combined Conv1D for local n-gram pattern extraction with GRU for sequential dependencies, achieving the best precision-recall balance. The final model scaled this architecture with richer embeddings (256d), delivering the highest recall across all six categories.
-
-#### Tools used
-
-- Built with Python, using TensorFlow/Keras and scikit-learn.
-- Deep learning models included SimpleRNN, GRU, Bidirectional GRU, and Conv1D.
-- Traditional models included Logistic Regression, Multinomial Naive Bayes, Complement Naive Bayes, and One-vs-Rest classification.
-- Text preprocessing used NLTK, SnowballStemmer, Keras Tokenizer, and TF-IDF.
-- Class imbalance was addressed with custom weighted binary cross-entropy.
-- Evaluation used Hamming Loss, multilabel confusion matrices, and per-class precision and recall.
-### 6.2 Toxic Comment Detection and Classification
-
-#### Objective of the project
-
-This project tackles the challenge of automatically detecting toxic content in online comments through a multilabel classification approach, simultaneously identifying six categories of toxicity — toxic, severe toxic, obscene, threat, insult, and identity hate. The core of the work lies in a systematic model escalation driven by performance analysis: Logistic Regression and Naive Bayes baselines achieved decent precision but failed on recall for minority classes, motivating the shift to deep learning. A Weighted SimpleRNN dramatically improved recall but introduced excessive false positives; replacing it with a GRU addressed the vanishing gradient problem and pushed recall further. A Bidirectional GRU showed no gains, suggesting the preprocessed sequences didn't benefit from backward context, so the focus shifted to architecture design: a CNN-GRU hybrid combined Conv1D for local n-gram pattern extraction with GRU for sequential dependencies, achieving the best precision-recall balance. The final model scaled this architecture with richer embeddings (256d), delivering the highest recall across all six categories.
-
-#### Tools used
-
-- Built with Python, using TensorFlow/Keras and scikit-learn.
-- Deep learning models included SimpleRNN, GRU, Bidirectional GRU, and Conv1D.
-- Traditional models included Logistic Regression, Multinomial Naive Bayes, Complement Naive Bayes, and One-vs-Rest classification.
-- Text preprocessing used NLTK, SnowballStemmer, Keras Tokenizer, and TF-IDF.
-- Class imbalance was addressed with custom weighted binary cross-entropy.
-- Evaluation used Hamming Loss, multilabel confusion matrices, and per-class precision and recall.
