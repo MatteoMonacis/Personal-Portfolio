@@ -250,7 +250,7 @@ The aim of this project was to help tennis coaches and sports agents make better
 
 #### Interactive Tableau dashboard
 
-# *Click the image to open the interactive Tableau dashboard.*
+##### *Click the image to open the interactive Tableau dashboard.*
 <a href="https://matteomonacis.github.io/Personal-Portfolio/">
   <img
     width="1782"
