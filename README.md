@@ -21,9 +21,8 @@ Goal of this project is to automatize this procedure: it reads all six price lis
 -  Color standardization: thousands of commercial color names mapped to 9 base categories
 -  Regex-based extraction for key product attributes
 
-### Project repository
+### Project repository:  **[Explore the complete Smartphone Price Comparison project](https://github.com/MatteoMonacis/smartphone-price-comparison)**
 
-🔗 **[Explore the complete Smartphone Price Comparison project](https://github.com/MatteoMonacis/smartphone-price-comparison)**
 For privacy reasons, sensitive data have been removed from the notebook and API calls.
 
 ## 2.Main project developed during my partecipation in the Junior Enterprise  of the Bicocca University for a company  operating in the digital payment sector:
