@@ -219,6 +219,8 @@ Football tactics in Serie A have changed dramatically over the past 15 years —
 - Data analysis: MySQL Workbench was used for relational queries, season-level normalization, and role-specific scoring.
 - Relationship modeling: Neo4j and Cypher queries modeled connections between players, clubs, and formations.
 
+#### Project repository: **[Explore the complete Evolution of Tactical Roles in Serie A over the Last 15 Years project](https://github.com/MatteoMonacis/Evolution-of-tactical-roles-in-Serie-a-over-the-last-15-years)**
+
 ### 8.2 Banking system analysis
 
 #### Objective of the project
