@@ -181,6 +181,8 @@ The goal of this project was to automatically classify over 150,000 Wikipedia ar
 - A Multinomial Naive Bayes classifier handled categorization.
 - Matplotlib and WordCloud were used for visualizations.
 
+#### Project repository: **[Explore the complete Text Mining with Big Data project](https://github.com/MatteoMonacis/Text-mining-with-big-data)**
+
 ## 7.Financial Market data analysis 
 
 ### 7.1 Enhancing Momentum Strategies with Return Skewness
