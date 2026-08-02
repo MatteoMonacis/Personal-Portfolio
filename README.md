@@ -233,7 +233,7 @@ This project involved working with a relational banking database that stores cus
 - Data integration: Views were used to join clients, accounts, and transactions.
 - Feature engineering: Correlated subqueries and aggregation functions populated the final feature table.
 
-  #### Project repository: **[Explore the complete Banking System Analysis project](https://github.com/MatteoMonacis/Banking-system-analysis)**
+#### Project repository: **[Explore the complete Banking System Analysis project](https://github.com/MatteoMonacis/Banking-system-analysis)**
 
 ## 9. Key Data Visualization project
 
