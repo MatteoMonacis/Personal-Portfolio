@@ -65,7 +65,7 @@ Imagine doing a workout at home and having a smart system that watches you, coun
 
 ## 4. Key Machine Learning Projects
 
-### 4.1 Machine Learning Applied to Real-World Data and Problem-Solving
+### 4.1 Machine Learning Applied to Real-World Data
 
 #### 1. Objective of the Project
 
