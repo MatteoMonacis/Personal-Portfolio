@@ -166,6 +166,7 @@ This project tackles the challenge of automatically detecting toxic content in o
 - Class imbalance was addressed with custom weighted binary cross-entropy.
 - Evaluation used Hamming Loss, multilabel confusion matrices, and per-class precision and recall.
 
+#### Project repository: **[Explore the complete Toxic Comment Detection and Classification project](https://github.com/MatteoMonacis/Toxic-Comment-Detection-and-Classification)**
 
 ### 6.3 Text mining with big data
 
