@@ -80,6 +80,8 @@ We developed a data-driven platform that helps individuals and institutions unde
 -  Plotly and Matplotlib for data visualization
 -  Streamlit for building and deploying the web application
 
+#### Project repository:  **[Explore the complete Machine Learning Applied to Real-World Data project](https://github.com/MatteoMonacis/Machine-Learning-Applied-to-Real-World-Data)**
+
 ### 4.2 Machine Learning on Knime
 
 #### Objective of the Project
