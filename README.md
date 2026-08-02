@@ -115,6 +115,9 @@ This project builds a face detection system entirely from scratch, without relyi
 -  NumPy is used for PCA and array operations.
 -  The training data combines the BioID Face Database and Kaggle’s Intel Image Classification dataset.
 
+#### Project repository:  **[Explore the complete Machine Learning for Object Detection project](https://github.com/MatteoMonacis/Machine-Learning-for-Object-detection)**
+
+
 ## 5. Key Deep Learning projects
 
 ### 5.1 Galaxy Morphology Classification Using Deep Learning and Transfer Learning
