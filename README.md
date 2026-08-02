@@ -201,6 +201,8 @@ When investing in the stock market, one common approach is to buy stocks that ha
 - Portfolios are price-weighted and rebalanced monthly.
 - Backtesting is performed with a custom cross-sectional engine.
 
+#### Project repository: **[Explore the complete Enhancing Momentum Strategies with Return Skewness project](https://github.com/MatteoMonacis/Enhancing-Momentum-Strategies-with-Return-Skewness)**
+
 ## 8. Key Data Management projects
 
 ### 8.1 Evolution of tactical roles in serie a over the last 15 years
