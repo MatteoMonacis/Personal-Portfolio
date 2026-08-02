@@ -250,15 +250,16 @@ The aim of this project was to help tennis coaches and sports agents make better
 
 #### Interactive Tableau dashboard
 
+# *Click the image to open the interactive Tableau dashboard.*
 <a href="https://matteomonacis.github.io/Personal-Portfolio/">
   <img
-    width="1143"
-    height="640"
+    width="1782"
+    height="1102"
     alt="GAME, SET, DATA: Unlocking Tennis Insights dashboard"
-    src="https://github.com/user-attachments/assets/551591f7-1a19-4921-9653-aa281b5a6a13"
+    src="https://github.com/user-attachments/assets/7ed67908-192a-44d0-8c4a-184d007368e5"
   >
 </a>
 
-*Click the image to open the interactive Tableau dashboard.*
+
 
 #### Project repository: **[Explore the complete GAME, SET, DATA: Unlocking Tennis Insights project](https://github.com/MatteoMonacis/GAME-SET-DATA-Unlocking-tennis-insights)**
