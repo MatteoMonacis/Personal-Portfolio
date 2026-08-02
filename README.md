@@ -1,4 +1,4 @@
-Welcome to my portfolio.
+ Welcome to my portfolio.
 
 On this page, I ordered the main projects I have worked on.
 The text presenting my personal portfolio has the following sections:
@@ -21,7 +21,7 @@ Goal of this project is to automatize this procedure: it reads all six price lis
 -  Color standardization: thousands of commercial color names mapped to 9 base categories
 -  Regex-based extraction for key product attributes
 
-### Project repository:  **[Explore the complete Smartphone Price Comparison project](https://github.com/MatteoMonacis/smartphone-price-comparison)**
+#### Project repository:  **[Explore the complete Smartphone Price Comparison project](https://github.com/MatteoMonacis/smartphone-price-comparison)**
 
 For privacy reasons, sensitive data have been removed from the notebook and API calls.
 
@@ -44,6 +44,8 @@ The client, a company operating in the digital payments sector, was facing a cri
 [![Watch the demo video](https://img.youtube.com/vi/aJGU9cfcoOk/hqdefault.jpg)](https://youtu.be/aJGU9cfcoOk)
 
 ▶️ [Click here to watch the complete demo on YouTube](https://youtu.be/aJGU9cfcoOk)
+
+#### Project repository:  **[Explore the complete Fraud Detection project](https://github.com/MatteoMonacis/Fraud-detection)**
 
 ## 3.My latest university project:
 
