@@ -149,6 +149,8 @@ This project focused on two main tasks applied to SMS messages: detecting spam a
 - Classification: XGBoost, CNN–LSTM, and CNN–BiLSTM.
 -  Text representation: Pre-trained 300-dimensional GloVe embeddings.
 
+#### Project repository: **[Explore the complete SMS Spam Detection and Topic Modeling Using Machine Learning and Deep Learning project](https://github.com/MatteoMonacis/SMS-Spam-Detection-and-Topic-Modeling-Using-Machine-Learning-and-Deep-Learning)**
+
 ### 6.2 Toxic Comment Detection and Classification
 
 #### Objective of the project
