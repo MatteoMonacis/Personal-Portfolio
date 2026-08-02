@@ -248,6 +248,17 @@ The aim of this project was to help tennis coaches and sports agents make better
 - Data preparation: Python and Pandas were used to merge and clean three source tables.
 - Data visualization: Tableau Public was used to create bar charts, multi-line charts, scatter plots, and a choropleth map.
 
-#### Interactive Tableau dashboard: **[Explore GAME, SET, DATA: Unlocking Tennis Insights](https://matteomonacis.github.io/Personal-Portfolio/)**
+#### Interactive Tableau dashboard
 
-#### PowerPoint repository: **[Explore the PowerPoint of this project](https://github.com/MatteoMonacis/GAME-SET-DATA-Unlocking-tennis-insights)**
+<a href="https://matteomonacis.github.io/Personal-Portfolio/">
+  <img
+    width="1143"
+    height="640"
+    alt="GAME, SET, DATA: Unlocking Tennis Insights dashboard"
+    src="https://github.com/user-attachments/assets/551591f7-1a19-4921-9653-aa281b5a6a13"
+  >
+</a>
+
+*Click the image to open the interactive Tableau dashboard.*
+
+#### Project repository: **[Explore the complete GAME, SET, DATA: Unlocking Tennis Insights project](https://github.com/MatteoMonacis/GAME-SET-DATA-Unlocking-tennis-insights)**
