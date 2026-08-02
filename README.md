@@ -96,6 +96,8 @@ The main goal of this project was to build a machine learning workflow able to p
 -  Model Optimization: Random-search hyperparameter tuning and stratified cross-validation
 -  Evaluation Metrics: ROC curves, AUC, confusion matrices, and Lift Charts
 
+#### Project repository:  **[Explore the complete Machine Learning on KNIME project](https://github.com/MatteoMonacis/Machine-Learning-on-Knime)**
+
 ### 4.3 Machine Learning for Object detection
 
 #### Objective of the project
