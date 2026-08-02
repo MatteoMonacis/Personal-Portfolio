@@ -134,6 +134,8 @@ The goal of this project was to build a deep learning system able to classify ga
 - Grad-CAM for model explainability
 - Cloud environment with GPU acceleration
 
+#### Project repository: **[Explore the complete Galaxy Morphology Classification Using Deep Learning and Transfer Learning project](https://github.com/MatteoMonacis/Galaxy-Morphology-Classification-Using-Deep-Learning-and-Transfer-Learning)**
+
 ## 6.Key Text Mining projects
 
 ### 6.1 SMS Spam Detection and Topic Modeling Using Machine Learning and Deep Learning
