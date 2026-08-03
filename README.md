@@ -39,12 +39,6 @@ The client, a company operating in the digital payments sector, was facing a cri
 -  Hyperparameters were tuned with GridSearchCV.
 -  The main optimization goal was to improve recall for the fraud class.
 
-#### Demo video
-
-[![Watch the demo video](https://img.youtube.com/vi/aJGU9cfcoOk/hqdefault.jpg)](https://youtu.be/aJGU9cfcoOk)
-
-▶️ [Click here to watch the complete demo on YouTube](https://youtu.be/aJGU9cfcoOk)
-
 #### Project repository:  **[Explore the complete Fraud Detection project](https://github.com/MatteoMonacis/Fraud-detection)**
 
 ## 3.My latest university project:
@@ -62,6 +56,12 @@ Imagine doing a workout at home and having a smart system that watches you, coun
 -  Exercise recognition compared eight PyTorch architectures, including TwoStreamRNN, PartLSTM, CTR-GCN, and SkeleTR.
 -  Performance was evaluated using grid search and 5-fold stratified cross-validation.
 - Cloud environment with GPU acceleration
+
+#### Demo video
+
+[![Watch the demo video](https://img.youtube.com/vi/aJGU9cfcoOk/hqdefault.jpg)](https://youtu.be/aJGU9cfcoOk)
+
+▶️ [Click here to watch the complete demo on YouTube](https://youtu.be/aJGU9cfcoOk)
 
 ## 4. Key Machine Learning Projects
 
