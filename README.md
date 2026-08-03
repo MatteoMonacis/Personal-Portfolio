@@ -71,9 +71,7 @@ The system uses two inputs: your phone and your webcam. Your phone sits in your 
 -  Performance was evaluated using grid search and 5-fold stratified cross-validation.
 - Cloud environment with GPU acceleration
 
-#### Project repository
-
-🔗 **[Explore the complete Virtual Coach project](https://github.com/MatteoMonacis/Virtual-coach)**
+#### Project repository: **[Explore the complete Virtual Coach project](https://github.com/MatteoMonacis/Virtual-coach)**
 
 ## 4. Key Machine Learning Projects
 
