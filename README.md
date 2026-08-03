@@ -40,7 +40,7 @@ The client, a company operating in the digital payments sector, was facing a cri
 -  Hyperparameters were tuned with GridSearchCV.
 -  The main optimization goal was to improve recall for the fraud class.
 
-*Note on privacy: raw data has been cleaned and preprocessed, but for privacy reasons the code of data cleaning cannot be shared and the exploratory analysis cannot display real observations, and all category names have been anonymized, the name of variables are shown in the notebook only because the dataset displayed in the notebook has been created by the author based on the raw data provided by the client.*
+*Note on privacy: raw data has been cleaned and preprocessed, but for privacy reasons the code of data cleaning cannot be shared and the exploratory analysis cannot display real observations, all category names have been anonymized, the name of variables are shown in the notebook only because the dataset displayed in the notebook has been created by the author based on the raw data provided by the client.*
 
 #### Project repository:  **[Explore the complete Fraud Detection project](https://github.com/MatteoMonacis/Fraud-detection)**
 
