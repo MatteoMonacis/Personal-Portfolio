@@ -1,10 +1,9 @@
- Welcome to my portfolio.
-
+Welcome to my portfolio.
 On this page, I ordered the main projects I have worked on during last years.
 The following readme text explaining the content of my personal portfolio has the following sections for each project:
 1. A brief description of the project
 2. The main tools used 
-3. A link to the repository and in some cases, a demo video.
+3. The link to the Github repository and in some cases, a demo video.
 
 ## 1.Main project developed in my last working experience as a Data Engineer at Prestige Group srl:
 
