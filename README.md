@@ -1,8 +1,10 @@
  Welcome to my portfolio.
 
 On this page, I ordered the main projects I have worked on.
-The text presenting my personal portfolio has the following sections:
-For each project, you will find a brief description, the technologies used, a link to the repository, and, in some cases, a demo video.
+The following readme text explaining the content of my personal portfolio has the following sections for each project:
+1. A brief description of the project
+2. The main tools used 
+3. A link to the repository and in some cases, a demo video.
 
 ## 1.Main project developed in my last working experience as a Data Engineer at Prestige Group srl:
 
@@ -10,7 +12,7 @@ For each project, you will find a brief description, the technologies used, a li
 
 The company buys smartphones from six different suppliers, each of which sends their price list daily in a different format and describes the same phone in their own way. Before this project, finding out which supplier offers the best price for a given phone meant comparing thousands of rows every day by hand across six different files.
 
-Goal of this project is to automatize this procedure: it reads all six price lists, understands when two different descriptions actually refer to the same phone(using a sentence embedding model), and produces a single clean spreadsheet where each row shows the cheapest price available, which supplier offers it, and how many units are in stock. What used to take hours of manual work now runs in minutes, giving the purchasing team a ready-to-use overview of the best deal for every smartphone on the market.
+Goal of this project is to automatize this procedure: it reads all six price lists, understands when two different descriptions actually refer to the same phone(using a sentence embedding model) and produces a single clean spreadsheet where each row shows the cheapest price available, which supplier offers it and how many units are in stock. What used to take hours of manual work now runs in minutes, giving the purchasing team a ready-to-use overview of the best deal for every smartphone on the market.
 
 #### Tools used
 
@@ -30,7 +32,7 @@ Goal of this project is to automatize this procedure: it reads all six price lis
 
 #### Objective of the project
 
-The client, a company operating in the digital payments sector, was facing a critical problem: among thousands of daily transactions, a very small fraction — less than 3% — were fraudulent. Manually reviewing every transaction was unsustainable, and the rarity of fraud cases made it extremely difficult for any automated system to learn to distinguish them from legitimate ones. The goal of this project was to build a Machine Learning model capable of automatically flagging suspicious transactions, allowing the company to intervene promptly and reduce financial losses. To ensure reliable performance measurement despite the severe data imbalance, a balanced evaluation strategy was adopted: the test set was constructed by sampling an equal number of fraudulent and legitimate transactions, and this process was repeated across five independent splits to assess model robustness. The final solution — an optimized Decision Tree classifier achieving 95% average accuracy on the balanced test set — provided the client with an interpretable, production-ready tool to automate fraud detection.
+The client, a company operating in the digital payments sector, was facing a critical problem: among thousands of daily transactions, a very small fraction(less than 3%) were fraudulent. Manually reviewing every transaction was unsustainable and the rarity of fraud cases made it extremely difficult for any automated system to learn to distinguish them from legitimate ones. The goal of this project was to build a Machine Learning model capable of automatically flagging suspicious transactions, allowing the company to intervene promptly and reduce financial losses. To ensure reliable performance measurement despite the severe data imbalance, a balanced evaluation strategy was adopted: the test set was constructed by sampling an equal number of fraudulent and legitimate transactions and this process was repeated across five independent splits to assess model robustness. The final solution — an optimized Decision Tree classifier achieving 95% average accuracy on the balanced test set — provided the client with an interpretable, production-ready tool to automate fraud detection.
 
 #### Tools used
 
@@ -48,7 +50,15 @@ The client, a company operating in the digital payments sector, was facing a cri
 
 #### Objective of the project
 
-Imagine doing a workout at home and having a smart system that watches you, counts your reps, and tells you if your form is off — all without a personal trainer. That is what Virtual Coach does. The system uses two inputs: your phone and your webcam. Your phone sits in your pocket and detects what you are doing — walking, sitting, standing, or laying down — by reading its built-in motion sensors. Your webcam tracks your body in real time, drawing a skeleton over your joints to understand how you move. From that skeleton, the system figures out which exercise you are performing (out of nine supported exercises, such as squats, push-ups, pull-ups, and jumping jacks), counts every repetition automatically, and flags shallow or incorrect reps. Everything runs together on a single live dashboard: on one side you see the webcam feed with the skeleton overlay and the rep counter, on the other side you see the activity detected from your phone. No cloud, no delay — it all happens in real time on your machine. Watch the demo below to see it in action.
+Imagine doing a workout at home and having a smart system that watches you, counts your reps and tells you if your form is not correct — all without a personal trainer. That is the goal chased from this project. 
+
+The system uses two inputs: your phone and your webcam. Your phone sits in your pocket and detects what you are doing(walking, sitting, standing, or laying down) by reading its built-in motion sensors. Your webcam tracks your body in real time, drawing a skeleton over your joints to understand how you move. From that skeleton, the system figures out which exercise you are performing (out of nine supported exercises, such as squats, push-ups, pull-ups, and jumping jacks), counts every repetition automatically and flags shallow or incorrect reps. Everything runs together on a single live dashboard: on one side you see the webcam feed with the skeleton overlay and the rep counter, on the other side you see the activity detected from your phone. No cloud, no delay — it all happens in real time on your machine. Watch the demo below to see it in action.
+
+#### Demo video
+
+[![Watch the demo video](https://img.youtube.com/vi/aJGU9cfcoOk/hqdefault.jpg)](https://youtu.be/aJGU9cfcoOk)
+
+▶️ [Click here to watch the complete demo on YouTube](https://youtu.be/aJGU9cfcoOk)
 
 #### Tools used
 
@@ -60,35 +70,27 @@ Imagine doing a workout at home and having a smart system that watches you, coun
 -  Performance was evaluated using grid search and 5-fold stratified cross-validation.
 - Cloud environment with GPU acceleration
 
-#### Demo video
-
-[![Watch the demo video](https://img.youtube.com/vi/aJGU9cfcoOk/hqdefault.jpg)](https://youtu.be/aJGU9cfcoOk)
-
-▶️ [Click here to watch the complete demo on YouTube](https://youtu.be/aJGU9cfcoOk)
-
-
 ## 4. Key Machine Learning Projects
 
 ### 4.1 Machine Learning Applied to Real-World Data
 
 #### 1. Objective of the Project
 
-We developed a data-driven platform that helps individuals and institutions understand skilled migration and identify the most attractive countries for relocation. The solution addresses the difficulty of comparing destinations across fragmented sources and multiple factors, such as employment, income, healthcare, safety, quality of life, access to services, and political freedom. To support the analysis, we created a unified dataset by integrating OECD migration flows with socioeconomic and governance indicators, then cleaning, standardizing, and normalizing the data. The resulting platform allows users to explore migration trends, compare countries, and receive personalized destination recommendations based on their priorities. The screen recording below showcases the web interface and its main functionalities from the user’s perspective
-
-#### 2. Tools Used
-
--  Python for project development
--  pandas and NumPy for data processing
--  scikit-learn for K-Means, PCA, normalization, and cosine similarity
--  NetworkX and Graphviz for dominance analysis
--  Plotly and Matplotlib for data visualization
--  Streamlit for building and deploying the web application
-
+We developed a data-driven platform that helps individuals and institutions understand skilled migration and identify the most attractive countries for relocation. The solution addresses the difficulty of comparing destinations across fragmented sources and multiple factors, such as employment, income, healthcare, safety, quality of life, access to services, and political freedom. To support the analysis, we created a unified dataset by integrating OECD migration flows with socioeconomic and governance indicators, then cleaning, standardizing and normalizing the data. The resulting platform allows users to explore migration trends, compare countries and receive personalized destination recommendations based on their priorities. The screen recording below showcases the web interface and its main functionalities from the user’s perspective
 #### Demo video
 
 [![Watch the demo video](https://img.youtube.com/vi/5q56joTQoZE/hqdefault.jpg)](https://youtu.be/5q56joTQoZE)
 
 ▶️ [Watch the complete demo on YouTube](https://youtu.be/5q56joTQoZE)
+
+#### 2. Tools Used
+
+-  Python for project development
+-  pandas and NumPy for data processing
+-  scikit-learn for K-Means, PCA, normalization and cosine similarity
+-  NetworkX and Graphviz for dominance analysis
+-  Plotly and Matplotlib for data visualization
+-  Streamlit for building and deploying the web application
 
 #### Project repository:  **[Explore the complete Machine Learning Applied to Real-World Data project](https://github.com/MatteoMonacis/Machine-Learning-Applied-to-Real-World-Data)**
 
@@ -96,7 +98,7 @@ We developed a data-driven platform that helps individuals and institutions unde
 
 #### Objective of the Project
 
-The main goal of this project was to build a machine learning workflow able to predict whether a water sample is safe to drink. KNIME Analytics Platform was intentionally used as part of a practical learning exercise, with the aim of improving skills in visual data analysis and low-code machine learning. The project included data cleaning, feature selection, class balancing, model training, and performance comparison. Another goal was to understand whether using PCA could improve the results compared with standard feature selection. Special attention was given to false positives, because predicting unsafe water as safe could have serious consequences. Random Forest without PCA was selected as the most reliable model.
+The main goal of this project was to build a machine learning workflow able to predict whether a water sample is safe to drink. KNIME Analytics Platform was intentionally used as part of a practical learning exercise, with the aim of improving skills in visual data analysis and low-code machine learning. The project included data cleaning, feature selection, class balancing, model training and performance comparison. Another goal was to understand whether using PCA could improve the results compared with standard feature selection. Special attention was given to false positives, because predicting unsafe water as safe could have serious consequences. Random Forest without PCA was selected as the most reliable model.
 
 #### 2. Tools Used
 
@@ -123,7 +125,7 @@ This project builds a face detection system entirely from scratch, without relyi
 #### Tools used
 
 -  The project is developed in Python.
--  scikit-learn is used for SVM, GridSearchCV, and classification metrics.
+-  scikit-learn is used for SVM, GridSearchCV and classification metrics.
 -  scikit-image is used for feature extraction with Gabor filters, HOG, and LBP.
 -  OpenCV and Pillow handle image preprocessing.
 -  NumPy is used for PCA and array operations.
@@ -138,7 +140,7 @@ This project builds a face detection system entirely from scratch, without relyi
 
 #### 1. Objective of the Project
 
-The goal of this project was to build a deep learning system able to classify galaxy images into ten different categories. I compared a custom CNN with several pretrained models to understand which approach could provide the best results. The main challenge was working with an extremely large and memory-intensive image dataset. Processing, resizing, augmenting, and training on thousands of images caused RAM limitations and very long training times, especially on local machines. For this reason, I had to reduce the dataset size, optimize the preprocessing pipeline, and move the training process to a GPU-based cloud environment. This challenge taught me how to manage large datasets, limited computational resources, and practical deep learning workflows.
+The goal of this project was to build a deep learning system able to classify galaxy images into ten different categories. I compared a custom CNN with several pretrained models to understand which approach could provide the best results. The main challenge was working with an extremely large and memory-intensive image dataset. Processing, resizing, augmenting and training on thousands of images caused RAM limitations and very long training times, especially on local machines. For this reason, I had to reduce the dataset size, optimize the preprocessing pipeline and move the training process to a GPU-based cloud environment. This challenge taught me how to manage large datasets, limited computational resources and practical deep learning workflows.
 
 #### 2. Tools Used
 
@@ -156,12 +158,12 @@ The goal of this project was to build a deep learning system able to classify ga
 
 #### Objective of the project
 
-This project focused on two main tasks applied to SMS messages: detecting spam and discovering recurring topics. For spam detection, three models were trained on a large dataset of about 67,000 messages and then tested on a separate, well-known benchmark to check how well they generalize to unseen data. All models shared the same text representation to make the comparison fair. For topic modeling, only non-spam messages were kept, and two methods designed for very short texts were used to uncover the main themes hidden in the data.
+This project focused on two main tasks applied to SMS messages: detecting spam and discovering recurring topics. For spam detection, three models were trained on a large dataset of about 67,000 messages and then tested on a separate, well-known benchmark to check how well they generalize to unseen data. All models shared the same text representation to make the comparison fair. For topic modeling, only non-spam messages were kept and two methods designed for very short texts were used to uncover the main themes hidden in the data.
 
 #### Tools used
 
 - Classification: XGBoost, CNN–LSTM, and CNN–BiLSTM.
--  Text representation: Pre-trained 300-dimensional GloVe embeddings.
+- Text representation: Pre-trained 300-dimensional GloVe embeddings.
 
 #### Project repository: **[Explore the complete SMS Spam Detection and Topic Modeling Using Machine Learning and Deep Learning project](https://github.com/MatteoMonacis/SMS-Spam-Detection-and-Topic-Modeling-Using-Machine-Learning-and-Deep-Learning)**
 
@@ -175,10 +177,10 @@ This project tackles the challenge of automatically detecting toxic content in o
 
 - Built with Python, using TensorFlow/Keras and scikit-learn.
 - Deep learning models included SimpleRNN, GRU, Bidirectional GRU, and Conv1D.
-- Traditional models included Logistic Regression, Multinomial Naive Bayes, Complement Naive Bayes, and One-vs-Rest classification.
+- Traditional models included Logistic Regression, Multinomial Naive Bayes, Complement Naive Bayes and One-vs-Rest classification.
 - Text preprocessing used NLTK, SnowballStemmer, Keras Tokenizer, and TF-IDF.
 - Class imbalance was addressed with custom weighted binary cross-entropy.
-- Evaluation used Hamming Loss, multilabel confusion matrices, and per-class precision and recall.
+- Evaluation used Hamming Loss, multilabel confusion matrices and per-class precision and recall.
 
 #### Project repository: **[Explore the complete Toxic Comment Detection and Classification project](https://github.com/MatteoMonacis/Toxic-Comment-Detection-and-Classification)**
 
@@ -186,12 +188,12 @@ This project tackles the challenge of automatically detecting toxic content in o
 
 #### Objective of the project
 
-The goal of this project was to automatically classify over 150,000 Wikipedia articles into 15 categories (e.g., politics, finance, science, sports). Due to the large size of the dataset (~1 GB), the entire pipeline was run on Databricks to leverage distributed computing. The workflow included data cleaning, exploratory analysis (word count statistics, word clouds), feature engineering, and model training. Two experiments were conducted — one using short article summaries and one using full article texts — to see which input leads to better classification results.
+The goal of this project was to automatically classify over 150,000 Wikipedia articles into 15 categories (e.g., politics, finance, science, sports). Due to the large size of the dataset (~1 GB), the entire pipeline was run on Databricks to leverage distributed computing. The workflow included data cleaning, exploratory analysis (word count statistics, word clouds), feature engineering and model training. Two experiments were conducted — one using short article summaries and one using full article texts — to see which input leads to better classification results.
 
 #### Tools used
 
 - The pipeline was built using PySpark MLlib.
-- RegexTokenizer, StopWordsRemover, and CountVectorizer were used for feature extraction.
+- RegexTokenizer, StopWordsRemover and CountVectorizer were used for feature extraction.
 - A Multinomial Naive Bayes classifier handled categorization.
 - Matplotlib and WordCloud were used for visualizations.
 
@@ -203,7 +205,7 @@ The goal of this project was to automatically classify over 150,000 Wikipedia ar
 
 #### Objective of the project
 
-When investing in the stock market, one common approach is to buy stocks that have been going up and sell those that have been going down — a strategy known as momentum. This project asks a simple question: can we improve this approach by also looking at how "uneven" each stock's recent returns have been? For example, some stocks mostly deliver small gains with occasional large drops, while others show the opposite pattern. This unevenness is called skewness, and measuring it can help pick better stocks to buy or avoid. Using data from 600 European companies over the period 2009–2018, the project tests four different ways of measuring this unevenness and compares them against a strategy based on momentum alone. The analysis is run separately on large, medium, and small companies to see whether the results hold across different parts of the market.
+When investing in the stock market, one common approach is to buy stocks that have been going up and sell those that have been going down — a strategy known as momentum. This project asks a simple question: can we improve this approach by also looking at how "uneven" each stock's recent returns have been? For example, some stocks mostly deliver small gains with occasional large drops, while others show the opposite pattern. This unevenness is called skewness and measuring it can help pick better stocks to buy or avoid. Using data from 600 European companies over the period 2009–2018, the project tests four different ways of measuring this unevenness and compares them against a strategy based on momentum alone. The analysis is run separately on large, medium and small companies to see whether the results hold across different parts of the market.
 
 #### Tools used
 
@@ -223,15 +225,15 @@ When investing in the stock market, one common approach is to buy stocks that ha
 
 #### Objective of the project
 
-Football tactics in Serie A have changed dramatically over the past 15 years — defenders now join the attack, midfielders cover both ends, forwards do much more than score, and goalkeepers have become active passers. To measure this shift, we collected 15 seasons of data (2009/10–2023/24) OF serie A, from WhoScored, Transfermarkt, and Octoparse, then integrated everything into a single clean dataset through extensive merging, deduplication, name standardization, and conflict resolution across heterogeneous sources. On top of this unified foundation we built custom weighted performance scores for each role, enabling fair cross-season comparisons, and analyzed goal-scoring partnerships to track which role combinations have become most productive over time.
+Football tactics in Serie A have changed dramatically over the past 15 years — defenders now join the attack, midfielders cover both ends, forwards do much more than score and goalkeepers have become active passers. To measure this shift, we collected 15 seasons of data (2009/10–2023/24) OF serie A, from WhoScored, Transfermarkt and Octoparse, then integrated everything into a single clean dataset through extensive merging, deduplication, name standardization and conflict resolution across heterogeneous sources. On top of this unified foundation we built custom weighted performance scores for each role, enabling fair cross-season comparisons and analyzed goal-scoring partnerships to track which role combinations have become most productive over time.
 
 #### Tools used
 
 - Player data collection: WhoScored data was gathered using Selenium WebDriver and BeautifulSoup.
 - Market data: Transfermarkt data was collected through HTTP requests and BeautifulSoup.
 - Team statistics: Extracted with Octoparse’s no-code scraping pipeline.
-- Data analysis: MySQL Workbench was used for relational queries, season-level normalization, and role-specific scoring.
-- Relationship modeling: Neo4j and Cypher queries modeled connections between players, clubs, and formations.
+- Data analysis: MySQL Workbench was used for relational queries, season-level normalization and role-specific scoring.
+- Relationship modeling: Neo4j and Cypher queries modeled connections between players, clubs and formations.
 
 #### Project repository: **[Explore the complete Evolution of Tactical Roles in Serie A over the Last 15 Years project](https://github.com/MatteoMonacis/Evolution-of-tactical-roles-in-Serie-a-over-the-last-15-years)**
 
@@ -239,12 +241,12 @@ Football tactics in Serie A have changed dramatically over the past 15 years —
 
 #### Objective of the project
 
-This project involved working with a relational banking database that stores customer profiles, account details, and over 14,000 transactions spanning a three-year period. The main objective was to transform this normalized structure into a single, client-level feature table suitable for supervised machine learning. Each row captures a set of behavioral indicators per customer, including age, transaction volumes and amounts by direction, account distribution across types, and spending patterns broken down by category such as mortgage payments, Amazon purchases, hotels, flights, and supermarkets.
+This project involved working with a relational banking database that stores customer profiles, account details and over 14,000 transactions spanning a three-year period. The main objective was to transform this normalized structure into a single, client-level feature table suitable for supervised machine learning. Each row captures a set of behavioral indicators per customer, including age, transaction volumes and amounts by direction, account distribution across types and spending patterns broken down by category such as mortgage payments, Amazon purchases, hotels, flights and supermarkets.
 
 #### Tools used:
 
 - Pipeline development: Built entirely in MySQL.
-- Data integration: Views were used to join clients, accounts, and transactions.
+- Data integration: Views were used to join clients, accounts and transactions.
 - Feature engineering: Correlated subqueries and aggregation functions populated the final feature table.
 
 #### Project repository: **[Explore the complete Banking System Analysis project](https://github.com/MatteoMonacis/Banking-system-analysis)**
@@ -255,12 +257,12 @@ This project involved working with a relational banking database that stores cus
 
 #### Objective of the project
 
-The aim of this project was to help tennis coaches and sports agents make better decisions using data. The team collected ATP match results, player details, and rankings from Kaggle, then merged them into a single clean dataset. The analysis explored how court surfaces, handedness, height, and ranking affect player performance, how key stats evolve across tournament rounds, and how the average age of winners has been steadily declining. All findings were combined to define a data-backed profile of the ideal player worth investing in, presented through the interactive Tableau story below.
+The aim of this project was to help tennis coaches and sports agents make better decisions using data. The team collected ATP match results, player details and rankings from Kaggle, then merged them into a single clean dataset. The analysis explored how court surfaces, handedness, height and ranking affect player performance, how key stats evolve across tournament rounds and how the average age of winners has been steadily declining. All findings were combined to define a data-backed profile of the ideal player worth investing in, presented through the interactive Tableau story below.
 
 #### Tools used
 
 - Data preparation: Python and Pandas were used to merge and clean three source tables.
-- Data visualization: Tableau Public was used to create bar charts, multi-line charts, scatter plots, and a choropleth map.
+- Data visualization: Tableau Public was used to create bar charts, multi-line charts, scatter plots and a choropleth map.
 
 #### Interactive Tableau dashboard:
 
