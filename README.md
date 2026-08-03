@@ -110,7 +110,12 @@ The main goal of this project was to build a machine learning workflow able to p
 #### Objective of the project
 
 This project builds a face detection system entirely from scratch, without relying on any deep learning model. Pre-trained networks like MTCNN or RetinaFace would have solved the task with minimal effort, but the explicit goal here is educational purpose for which my goal was to work at a lower level of abstraction — manually designing the feature extraction pipeline and understanding what each component contributes to the final prediction. Each image patch goes through three parallel feature extractors: Gabor filters (reduced with PCA), HOG, and LBP. Their outputs are concatenated into a single vector and fed to an SVM classifier. At inference time, a sliding window scans the image at multiple scales and Non-Maximum Suppression merges overlapping detections into clean bounding boxes, as shown below.
-<img width="738" height="415" alt="immagine" src="https://github.com/user-attachments/assets/a86329eb-3c5f-4f1a-b22d-5df89d34aa58" />
+<img
+  width="369"
+  height="208"
+  alt="Face detection output"
+  src="https://github.com/user-attachments/assets/a86329eb-3c5f-4f1a-b22d-5df89d34aa58"
+/>
 
 #### Tools used
 
