@@ -211,7 +211,7 @@ When investing in the stock market, one common approach is to buy stocks that ha
 
 ## 8. Key Data Management projects
 
-### 8.1 Evolution of tactical roles in Serie a over the last 15 years
+### 8.1 Evolution of tactical roles in Serie A over the last 15 years
 
 #### Objective of the project
 
