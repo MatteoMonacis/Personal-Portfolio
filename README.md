@@ -1,6 +1,6 @@
  Welcome to my portfolio.
 
-On this page, I ordered the main projects I have worked on.
+On this page, I ordered the main projects I have worked on during last years.
 The following readme text explaining the content of my personal portfolio has the following sections for each project:
 1. A brief description of the project
 2. The main tools used 
