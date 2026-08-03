@@ -23,7 +23,7 @@ Goal of this project is to automatize this procedure: it reads all six price lis
 
 #### Project repository:  **[Explore the complete Smartphone Price Comparison project](https://github.com/MatteoMonacis/smartphone-price-comparison)**
 
-For privacy reasons, sensitive data have been removed from the notebook and API calls.
+Note on privacy: for privacy reasons, sensitive data like API calls have been removed from the notebook.
 
 ## 2.Main project developed during my partecipation in the Junior Enterprise  of the Bicocca University for a company  operating in the digital payment sector:
 
