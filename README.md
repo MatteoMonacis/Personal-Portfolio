@@ -63,6 +63,7 @@ Imagine doing a workout at home and having a smart system that watches you, coun
 
 ▶️ [Click here to watch the complete demo on YouTube](https://youtu.be/aJGU9cfcoOk)
 
+
 ## 4. Key Machine Learning Projects
 
 ### 4.1 Machine Learning Applied to Real-World Data
@@ -79,6 +80,12 @@ We developed a data-driven platform that helps individuals and institutions unde
 -  NetworkX and Graphviz for dominance analysis
 -  Plotly and Matplotlib for data visualization
 -  Streamlit for building and deploying the web application
+
+#### Demo video
+
+[![Watch the demo video](https://img.youtube.com/vi/5q56joTQoZE/hqdefault.jpg)](https://youtu.be/5q56joTQoZE)
+
+▶️ [Watch the complete demo on YouTube](https://youtu.be/5q56joTQoZE)
 
 #### Project repository:  **[Explore the complete Machine Learning Applied to Real-World Data project](https://github.com/MatteoMonacis/Machine-Learning-Applied-to-Real-World-Data)**
 
