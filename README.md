@@ -24,8 +24,8 @@ Goal of this project is to automatize this procedure: it reads all six price lis
 -  Color standardization: thousands of commercial color names mapped to 9 base categories
 -  Regex-based extraction for key product attributes
 
-*Note on privacy: for privacy reasons, sensitive data like API calls credentials have been removed from the notebook.*
 
+*Note on privacy: for privacy reasons, sensitive data like API calls credentials have been removed from the notebook.*
 #### Project repository:  **[Explore the complete Smartphone Price Comparison project](https://github.com/MatteoMonacis/smartphone-price-comparison)**
 
 
@@ -43,8 +43,8 @@ The client, a company operating in the digital payments sector, was facing a cri
 -  Hyperparameters were tuned with GridSearchCV.
 -  The main optimization goal was to improve recall for the fraud class.
 
-*Note on privacy: raw data has been cleaned and preprocessed, but for privacy reasons the code of data cleaning cannot be shared and the exploratory analysis cannot display real observations, all category names have been anonymized, the name of variables are shown in the notebook only because the dataset displayed in the notebook has been created by the author based on the raw data provided by the client.*
 
+*Note on privacy: raw data has been cleaned and preprocessed, but for privacy reasons the code of data cleaning cannot be shared and the exploratory analysis cannot display real observations, all category names have been anonymized, the name of variables are shown in the notebook only because the dataset displayed in the notebook has been created by the author based on the raw data provided by the client.*
 #### Project repository:  **[Explore the complete Fraud Detection project](https://github.com/MatteoMonacis/Fraud-detection)**
 
 ## 3.My latest university project:
