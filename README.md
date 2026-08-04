@@ -25,7 +25,7 @@ Goal of this project is to automatize this procedure: it reads all six price lis
 -  Regex-based extraction for key product attributes
 
 
-*Note on privacy: for privacy reasons, sensitive data like API calls credentials have been removed from the notebook.*
+*Note on privacy: for privacy reasons, sensitive data like API calls credentials and customer supply chain information have been removed from the notebook.*
 #### Project repository:  **[Explore the complete Smartphone Price Comparison project](https://github.com/MatteoMonacis/smartphone-price-comparison)**
 
 
